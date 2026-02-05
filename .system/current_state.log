@@ -1,4 +1,4 @@
-### TIMESTAMP: Thu Feb  5 09:59:09 PM CET 2026 ###
+### TIMESTAMP: Thu Feb  5 10:00:27 PM CET 2026 ###
 ### KERNEL ###
 Linux archlinux 6.18.6-arch1-1 #1 SMP PREEMPT_DYNAMIC Sun, 18 Jan 2026 00:34:07 +0000 x86_64 GNU/Linux
 
@@ -13,7 +13,7 @@ Machine:
     Firmware: UEFI vendor: American Megatrends LLC. v: FA617XS.319
     date: 01/21/2025
 Battery:
-  ID-1: BAT0 charge: 74.5 Wh (100%) condition: 74.5/90 Wh (82.8%) volts: 16.82
+  ID-1: BAT0 charge: 74.5 Wh (100%) condition: 74.5/90 Wh (82.8%) volts: 16.81
     min: 15.86 model: AS3GWAF3KC GA50358 status: full
   Device-1: hidpp_battery_0 model: Logitech MX Master 3S charge: 65%
     status: discharging
@@ -30,7 +30,7 @@ Graphics:
     XT/7600M XT/7600S/7700S / PRO W7600] vendor: ASUSTeK driver: amdgpu
     v: kernel arch: RDNA-3 bus-ID: 03:00.0
   Device-2: Advanced Micro Devices [AMD/ATI] Phoenix1 vendor: ASUSTeK
-    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 52.0 C
+    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 51.0 C
   Device-3: IMC Networks USB2.0 HD UVC WebCam driver: uvcvideo type: USB
     bus-ID: 1-5:3
   Display: wayland server: X.org v: 1.21.1.21 with: Xwayland v: 24.1.9
@@ -82,12 +82,12 @@ Partition:
 Swap:
   ID-1: swap-1 type: zram size: 7.42 GiB used: 0 KiB (0.0%) dev: /dev/zram0
 Sensors:
-  System Temperatures: cpu: 57.9 C mobo: 51.0 C
+  System Temperatures: cpu: 57.4 C mobo: 51.0 C
   Fan Speeds (rpm): N/A
-  GPU: device: amdgpu temp: 58.0 C fan: 0 device: amdgpu temp: 52.0 C
+  GPU: device: amdgpu temp: 51.0 C device: amdgpu temp: 59.0 C fan: 0
 Info:
-  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.02 GiB (60.8%)
-  Processes: 401 Uptime: 9h 27m Init: systemd
+  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.03 GiB (60.9%)
+  Processes: 402 Uptime: 9h 28m Init: systemd
   Packages: 780 Compilers: clang: 21.1.6 gcc: 15.2.1 Shell: gemini-sync.sh
     inxi: 3.3.40
 
@@ -214,26 +214,27 @@ zsh-autosuggestions 0.7.1-1
 zsh-syntax-highlighting 0.8.0-1
 
 ### SERVICES ###
-  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
-  bluetooth.service             loaded active running Bluetooth service
-  cups.service                  loaded active running CUPS Scheduler
-  dbus-broker.service           loaded active running D-Bus System Message Bus
-  NetworkManager.service        loaded active running Network Manager
-  polkit.service                loaded active running Authorization Manager
-  power-profiles-daemon.service loaded active running Power Profiles daemon
-  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
-  sddm.service                  loaded active running Simple Desktop Display Manager
-  systemd-journald.service      loaded active running Journal Service
-  systemd-logind.service        loaded active running User Login Management
-  systemd-timesyncd.service     loaded active running Network Time Synchronization
-  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
-  systemd-userdbd.service       loaded active running User Database Manager
-  upower.service                loaded active running Daemon for power management
-  user@1000.service             loaded active running User Manager for UID 1000
-  wpa_supplicant.service        loaded active running WPA supplicant
+  UNIT                              LOAD   ACTIVE SUB     DESCRIPTION
+  bluetooth.service                 loaded active running Bluetooth service
+  cups.service                      loaded active running CUPS Scheduler
+  dbus-broker.service               loaded active running D-Bus System Message Bus
+  NetworkManager-dispatcher.service loaded active running Network Manager Script Dispatcher Service
+  NetworkManager.service            loaded active running Network Manager
+  polkit.service                    loaded active running Authorization Manager
+  power-profiles-daemon.service     loaded active running Power Profiles daemon
+  rtkit-daemon.service              loaded active running RealtimeKit Scheduling Policy Service
+  sddm.service                      loaded active running Simple Desktop Display Manager
+  systemd-journald.service          loaded active running Journal Service
+  systemd-logind.service            loaded active running User Login Management
+  systemd-timesyncd.service         loaded active running Network Time Synchronization
+  systemd-udevd.service             loaded active running Rule-based Manager for Device Events and Files
+  systemd-userdbd.service           loaded active running User Database Manager
+  upower.service                    loaded active running Daemon for power management
+  user@1000.service                 loaded active running User Manager for UID 1000
+  wpa_supplicant.service            loaded active running WPA supplicant
 
 Legend: LOAD   → Reflects whether the unit definition was properly loaded.
         ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
         SUB    → The low-level unit activation state, values depend on unit type.
 
-16 loaded units listed.
+17 loaded units listed.
