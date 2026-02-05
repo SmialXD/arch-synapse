@@ -1,0 +1,10 @@
+{
+  "user": "arch",
+  "machine": "ASUS TUF Gaming A16",
+  "preferences": {
+    "shell": "zsh",
+    "editor": "nvim",
+    "wm": "hyprland"
+  },
+  "last_interaction": "2026-02-05"
+}
