@@ -1,4 +1,4 @@
-### TIMESTAMP: Thu Feb  5 10:27:16 PM CET 2026 ###
+### TIMESTAMP: Thu Feb  5 11:00:08 PM CET 2026 ###
 ### KERNEL ###
 Linux archlinux 6.18.6-arch1-1 #1 SMP PREEMPT_DYNAMIC Sun, 18 Jan 2026 00:34:07 +0000 x86_64 GNU/Linux
 
@@ -30,7 +30,7 @@ Graphics:
     XT/7600M XT/7600S/7700S / PRO W7600] vendor: ASUSTeK driver: amdgpu
     v: kernel arch: RDNA-3 bus-ID: 03:00.0
   Device-2: Advanced Micro Devices [AMD/ATI] Phoenix1 vendor: ASUSTeK
-    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 56.0 C
+    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 55.0 C
   Device-3: IMC Networks USB2.0 HD UVC WebCam driver: uvcvideo type: USB
     bus-ID: 1-5:3
   Display: wayland server: X.org v: 1.21.1.21 with: Xwayland v: 24.1.9
@@ -70,25 +70,25 @@ Bluetooth:
   Report: btmgmt ID: hci0 rfk-id: 0 state: up address: <filter> bt-v: 5.2
     lmp-v: 11
 Drives:
-  Local Storage: total: 942.7 GiB used: 42.78 GiB (4.5%)
+  Local Storage: total: 942.7 GiB used: 43.66 GiB (4.6%)
   ID-1: /dev/nvme0n1 vendor: Western Digital model: WD PC SN740
     SDDPNQD-512G-1002 size: 476.94 GiB temp: 21.9 C
   ID-2: /dev/nvme1n1 vendor: Samsung model: SSD 970 EVO Plus 500GB
-    size: 465.76 GiB temp: 53.9 C
+    size: 465.76 GiB temp: 52.9 C
 Partition:
-  ID-1: / size: 456.39 GiB used: 42.73 GiB (9.4%) fs: ext4 dev: /dev/nvme1n1p2
+  ID-1: / size: 456.39 GiB used: 43.61 GiB (9.6%) fs: ext4 dev: /dev/nvme1n1p2
   ID-2: /boot size: 1022 MiB used: 56.2 MiB (5.5%) fs: vfat
     dev: /dev/nvme1n1p1
 Swap:
-  ID-1: swap-1 type: zram size: 7.42 GiB used: 0 KiB (0.0%) dev: /dev/zram0
+  ID-1: swap-1 type: zram size: 7.42 GiB used: 124 KiB (0.0%) dev: /dev/zram0
 Sensors:
-  System Temperatures: cpu: 60.1 C mobo: 50.8 C
+  System Temperatures: cpu: 58.5 C mobo: 54.0 C
   Fan Speeds (rpm): N/A
-  GPU: device: amdgpu temp: 56.0 C device: amdgpu temp: 58.0 C fan: 0
+  GPU: device: amdgpu temp: 57.0 C fan: 0 device: amdgpu temp: 55.0 C
 Info:
-  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.03 GiB (60.9%)
-  Processes: 438 Uptime: 9h 55m Init: systemd
-  Packages: 780 Compilers: clang: 21.1.6 gcc: 15.2.1 Shell: gemini-sync.sh
+  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.54 GiB (64.3%)
+  Processes: 406 Uptime: 10h 28m Init: systemd
+  Packages: 781 Compilers: clang: 21.1.6 gcc: 15.2.1 Shell: gemini-sync.sh
     inxi: 3.3.40
 
 ### PACKAGES ###
@@ -117,6 +117,7 @@ fastfetch 2.58.0-1
 fd 10.3.0-1
 firefox 147.0.1-1
 fzf 0.67.0-2
+gemini-cli 1:0.25.2-1
 git 2.52.0-2
 github-cli 2.86.0-1
 go 2:1.25.6-1
