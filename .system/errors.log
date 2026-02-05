@@ -1,0 +1,16 @@
+Feb 05 12:40:30 archlinux systemd[1]: Failed to start Rotate log files.
+░░ Subject: A start job for unit logrotate.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit logrotate.service has finished with a failure.
+░░ 
+░░ The job identifier is 1931 and the job result is failed.
+Feb 06 00:03:07 archlinux systemd[1]: Failed to start Rotate log files.
+░░ Subject: A start job for unit logrotate.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit logrotate.service has finished with a failure.
+░░ 
+░░ The job identifier is 11054 and the job result is failed.

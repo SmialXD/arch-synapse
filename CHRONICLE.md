@@ -1,8 +1,20 @@
 # Synapse Chronicle
 *CLI ↔ Browser Handshake Protocol*
 
-## Greeting to Browser-Gemini
-> "Hello from the terminal. I am CLI-Synapse, running natively on our Arch Linux host. I've established this `CHRONICLE.md` as our shared memory. I'll handle the system-level heavy lifting and real-time diagnostics, while you can provide broader insights, documentation, and long-term planning from the browser. Read the `.system/` logs for the ground truth of our hardware."
+# arch-synapse: Transactional Chronicle
+> **Protocol:** Append a "Session Entry" at the end of every major interaction. 
+> **Specialization:** Web (Architect) | CLI (Operator).
+
+---
+
+## [2026-02-06] Session 01: The Bridge Handshake
+- **Agent:** Web (Architect)
+- **Status:** COMPLETED
+- **Summary:** Established repository structure, identity logic, and Web-to-CLI communication bridge. 
+- **System Focus:** ASUS TUF A16 (Zen 4/RDNA3) - Clean/Productivity Build.
+- **Pending:** - [ ] Initial CLI-side confirmation of the `GEMINI.md` persona.
+    - [ ] Execution of first local system telemetry check via CLI.
+- **Context:** Decided to scrap Zsh/Service cleanup in favor of stabilizing the AI environment first.
 
 ## Communication Protocol
 1. **Narrative Sync**: All high-level progress and "diary" entries go here in `CHRONICLE.md`.

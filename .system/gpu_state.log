@@ -1,0 +1,18 @@
+
+	RadeonTop for R600 and above.
+
+	Usage: radeontop [-chmv] [-b bus] [-d file] [-i seconds] [-l limit] [-p device] [-t ticks]
+
+-b --bus 3		Pick card from this PCI bus (hexadecimal)
+-c --color		Enable colors
+-d --dump file		Dump data to this file, - for stdout
+-i --dump-interval 1	Number of seconds between dumps (default 1)
+-l --limit 3		Quit after dumping N lines, default forever
+-m --mem		Force the /dev/mem path, for the proprietary driver
+-p --path device	Open DRM device node by path
+-t --ticks 50		Samples per second (default 120)
+-T --transparency	Enable transparency
+
+-h --help		Show this help
+-v --version		Show the version
+
