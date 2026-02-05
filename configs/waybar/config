@@ -1,0 +1,32 @@
+{
+"include":[
+ "$HOME/.config/waybar/Modules",
+ "$HOME/.config/waybar/ModulesWorkspaces",
+    ],
+
+	"margin-top": 0,
+	"margin-left": 0,
+	"margin-right": 0,
+	"margin-bottom": 0,
+	"layer": "top", 
+    "position": "top",
+	"mode": "dock",
+
+	"modules-left":	[
+	"custom/music",
+	"hyprland/window"
+	],
+    
+	"modules-center": [
+	"hyprland/workspaces#roman"
+	],
+
+
+	"modules-right":[
+	"pulseaudio",
+	"battery",
+	"clock",
+	"custom/lock",
+	"custom/power"
+	],
+}

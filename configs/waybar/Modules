@@ -1,0 +1,84 @@
+{
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "custom/music": {
+        "format": "  {}",
+        "escape": true,
+        "interval": 5,
+        "tooltip": false,
+        "exec": "playerctl metadata --format='{{ title }}'",
+        "on-click": "playerctl play-pause",
+        "max-length": 50
+    },
+    "clock": {
+        "timezone": "Europe",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": " {:%d/%m/%Y}",
+        "format": "   {:%H:%M}"
+    },
+	"hyprland/window": {
+	"format": "{}",
+	"max-length": 25,
+	"separate-outputs": true,
+	"offscreen-css": true,
+	"offscreen-css-text": "(inactive)",
+	"rewrite": {
+		"(.*) — Mozilla Firefox": " $1",
+		"(.*) - fish": "> [$1]",
+		"(.*) - zsh": ">  ",
+		".*~.*": ">  ",
+		"(.*) - $term": "> [$1]",
+		"nv.*": ">  " ,
+		"Spotify.*": ">  " ,
+
+		},
+},
+
+   "battery": {
+	//"interval": 5,
+	"align": 0,
+	"rotate": 0,
+	//"bat": "BAT1",
+	//"adapter": "ACAD",
+	"full-at": 100,
+	"design-capacity": false,
+	"states": {
+		"good": 95,
+		"warning": 30,
+		"critical": 15
+	},
+	"format": "{icon} {capacity}%",
+	"format-charging": " {capacity}%",
+	"format-plugged": "󱘖 {capacity}%",
+	"format-alt-click": "click",
+	"format-full": "{icon} Full",
+	"format-alt": "{icon} {time}",
+	"format-icons": [
+		"󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+	],
+	"format-time": "{H}h {M}min",
+	"tooltip": true,
+	"tooltip-format": "{timeTo} {power}w",
+},
+ "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "default": ["", "", " "]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/lock": {
+        "tooltip": false,
+        "on-click": "hyprlock",
+        "format": " ",
+    },
+    "custom/power": {
+        "tooltip": false,
+        "on-click": "wlogout &",
+    "format": " "
+	}
+}
