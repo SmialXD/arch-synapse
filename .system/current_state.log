@@ -1,4 +1,4 @@
-### TIMESTAMP: Fri Feb  6 12:24:16 AM CET 2026 ###
+### TIMESTAMP: Fri Feb  6 12:28:03 AM CET 2026 ###
 ### KERNEL ###
 Linux archlinux 6.18.6-arch1-1 #1 SMP PREEMPT_DYNAMIC Sun, 18 Jan 2026 00:34:07 +0000 x86_64 GNU/Linux
 
@@ -20,9 +20,9 @@ Battery:
 CPU:
   Info: 8-core model: AMD Ryzen 9 7940HS w/ Radeon 780M Graphics bits: 64
     type: MT MCP arch: Zen 4 rev: 1 cache: L1: 512 KiB L2: 8 MiB L3: 16 MiB
-  Speed (MHz): avg: 1101 min/max: 403/5263 boost: enabled cores: 1: 1101
-    2: 1101 3: 1101 4: 1101 5: 1101 6: 1101 7: 1101 8: 1101 9: 1101 10: 1101
-    11: 1101 12: 1101 13: 1101 14: 1101 15: 1101 16: 1101 bogomips: 127760
+  Speed (MHz): avg: 1335 min/max: 403/5263 boost: enabled cores: 1: 1335
+    2: 1335 3: 1335 4: 1335 5: 1335 6: 1335 7: 1335 8: 1335 9: 1335 10: 1335
+    11: 1335 12: 1335 13: 1335 14: 1335 15: 1335 16: 1335 bogomips: 127760
   Flags-basic: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 sse4a
     ssse3 svm
 Graphics:
@@ -30,7 +30,7 @@ Graphics:
     XT/7600M XT/7600S/7700S / PRO W7600] vendor: ASUSTeK driver: amdgpu
     v: kernel arch: RDNA-3 bus-ID: 03:00.0
   Device-2: Advanced Micro Devices [AMD/ATI] Phoenix1 vendor: ASUSTeK
-    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 55.0 C
+    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 54.0 C
   Device-3: IMC Networks USB2.0 HD UVC WebCam driver: uvcvideo type: USB
     bus-ID: 1-5:3
   Display: wayland server: X.org v: 1.21.1.21 with: Xwayland v: 24.1.9
@@ -74,7 +74,7 @@ Drives:
   ID-1: /dev/nvme0n1 vendor: Western Digital model: WD PC SN740
     SDDPNQD-512G-1002 size: 476.94 GiB temp: 21.9 C
   ID-2: /dev/nvme1n1 vendor: Samsung model: SSD 970 EVO Plus 500GB
-    size: 465.76 GiB temp: 52.9 C
+    size: 465.76 GiB temp: 53.9 C
 Partition:
   ID-1: / size: 456.39 GiB used: 43.82 GiB (9.6%) fs: ext4 dev: /dev/nvme1n1p2
   ID-2: /boot size: 1022 MiB used: 56.2 MiB (5.5%) fs: vfat
@@ -82,12 +82,12 @@ Partition:
 Swap:
   ID-1: swap-1 type: zram size: 7.42 GiB used: 1.3 MiB (0.0%) dev: /dev/zram0
 Sensors:
-  System Temperatures: cpu: 59.8 C mobo: 50.5 C
+  System Temperatures: cpu: 60.0 C mobo: 50.8 C
   Fan Speeds (rpm): N/A
-  GPU: device: amdgpu temp: 57.0 C fan: 0 device: amdgpu temp: 55.0 C
+  GPU: device: amdgpu temp: 59.0 C fan: 0 device: amdgpu temp: 54.0 C
 Info:
-  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.96 GiB (67.1%)
-  Processes: 408 Uptime: 11h 52m Init: systemd
+  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.98 GiB (67.3%)
+  Processes: 411 Uptime: 11h 55m Init: systemd
   Packages: 781 Compilers: clang: 21.1.6 gcc: 15.2.1 Shell: gemini-sync.sh
     inxi: 3.3.40
 
