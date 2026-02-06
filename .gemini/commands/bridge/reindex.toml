@@ -1,0 +1,11 @@
+description = "Updates the INDEX.md file to give the AI a high-speed context overview."
+prompt = """
+Update the INDEX.md file in the root directory.
+1. Read the current CHRONICLE.md and identity.json.
+2. Generate a compact summary including:
+   - Project Health: (Stable/Out-of-Sync)
+   - Last 3 Decisions made.
+   - Current 'In-Progress' files.
+3. Save this as a Markdown table.
+Goal: Keep this file under 500 tokens so it can be read every session for instant context.
+"""
