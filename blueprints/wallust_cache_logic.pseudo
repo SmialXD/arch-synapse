@@ -1,0 +1,24 @@
+TASK: Create 'wallust-refresh.sh'
+GOAL: Rebuild wallust color cache for all wallpapers without "flashing" the current terminal theme.
+
+LOGIC:
+1. PREP:
+   - Define Wallpaper Dir: ~/Wallpapers
+   - Define Cache Dir: ~/.cache/wallust
+   - Notify User: "Building Wallust Cache..." (icon: terminal)
+
+2. CLEAN:
+   - Remove existing cache files to ensure freshness.
+   - Re-create cache directory.
+
+3. EXECUTION LOOP:
+   - Get list of images (jpg, png, jpeg).
+   - Loop through list:
+     - Calculate progress percentage.
+     - Display clean progress bar in terminal (e.g., [###...] 45%).
+     - COMMAND: Run wallust in 'generation-only' mode. 
+       - CRITICAL: The CLI Operator must verify if `wallust cs <img_path>` or `wallust run --quiet --no-apply` is the correct flag to generate cache WITHOUT changing the current open terminal colors.
+   
+4. FINISH:
+   - Clear progress line.
+   - Notify User: "Cache Rebuild Complete."
