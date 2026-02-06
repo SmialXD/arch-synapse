@@ -1,4 +1,4 @@
-### TIMESTAMP: Fri Feb  6 01:36:15 AM CET 2026 ###
+### TIMESTAMP: Fri Feb  6 01:38:15 AM CET 2026 ###
 ### KERNEL ###
 Linux archlinux 6.18.6-arch1-1 #1 SMP PREEMPT_DYNAMIC Sun, 18 Jan 2026 00:34:07 +0000 x86_64 GNU/Linux
 
@@ -13,7 +13,7 @@ Machine:
     Firmware: UEFI vendor: American Megatrends LLC. v: FA617XS.319
     date: 01/21/2025
 Battery:
-  ID-1: BAT0 charge: 74.5 Wh (100%) condition: 74.5/90 Wh (82.8%) volts: 16.81
+  ID-1: BAT0 charge: 74.5 Wh (100%) condition: 74.5/90 Wh (82.8%) volts: 16.82
     min: 15.86 model: AS3GWAF3KC GA50358 status: full
   Device-1: hidpp_battery_0 model: Logitech MX Master 3S charge: 65%
     status: discharging
@@ -30,7 +30,7 @@ Graphics:
     XT/7600M XT/7600S/7700S / PRO W7600] vendor: ASUSTeK driver: amdgpu
     v: kernel arch: RDNA-3 bus-ID: 03:00.0
   Device-2: Advanced Micro Devices [AMD/ATI] Phoenix1 vendor: ASUSTeK
-    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 44.0 C
+    driver: amdgpu v: kernel arch: RDNA-3 bus-ID: 68:00.0 temp: 53.0 C
   Device-3: IMC Networks USB2.0 HD UVC WebCam driver: uvcvideo type: USB
     bus-ID: 1-5:3
   Display: wayland server: X.org v: 1.21.1.21 with: Xwayland v: 24.1.9
@@ -74,7 +74,7 @@ Drives:
   ID-1: /dev/nvme0n1 vendor: Western Digital model: WD PC SN740
     SDDPNQD-512G-1002 size: 476.94 GiB temp: 21.9 C
   ID-2: /dev/nvme1n1 vendor: Samsung model: SSD 970 EVO Plus 500GB
-    size: 465.76 GiB temp: 50.9 C
+    size: 465.76 GiB temp: 51.9 C
 Partition:
   ID-1: / size: 456.39 GiB used: 43.46 GiB (9.5%) fs: ext4 dev: /dev/nvme1n1p2
   ID-2: /boot size: 1022 MiB used: 56.2 MiB (5.5%) fs: vfat
@@ -82,12 +82,12 @@ Partition:
 Swap:
   ID-1: swap-1 type: zram size: 7.42 GiB used: 1.3 MiB (0.0%) dev: /dev/zram0
 Sensors:
-  System Temperatures: cpu: 50.9 C mobo: 49.5 C
+  System Temperatures: cpu: 59.6 C mobo: 48.5 C
   Fan Speeds (rpm): N/A
-  GPU: device: amdgpu temp: 45.0 C device: amdgpu temp: 56.0 C fan: 0
+  GPU: device: amdgpu temp: 54.0 C fan: 0 device: amdgpu temp: 53.0 C
 Info:
-  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.75 GiB (65.7%)
-  Processes: 409 Uptime: 13h 4m Init: systemd
+  Memory: total: 16 GiB note: est. available: 14.84 GiB used: 9.87 GiB (66.5%)
+  Processes: 407 Uptime: 13h 6m Init: systemd
   Packages: 781 Compilers: clang: 21.1.6 gcc: 15.2.1 Shell: gemini-sync.sh
     inxi: 3.3.40
 

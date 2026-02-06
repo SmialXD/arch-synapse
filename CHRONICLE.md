@@ -19,10 +19,10 @@
 - **Summary:** Drafted logic for a Wallust cache-warming script to prevent runtime lag when switching themes.
 - **Artifacts:** Created `blueprints/wallust_cache_logic.pseudo`.
 - **Pending Tasks:**
-    - [ ] Operator: Read `blueprints/wallust_cache_logic.pseudo`.
-    - [ ] Operator: Determine correct `wallust` flag for "silent generation" (non-applying).
-    - [ ] Operator: Write the executable script to `scripts/theme/wallust-refresh.sh`.
-    - [ ] Operator: Execute test run and report success/failure.
+    - [x] Operator: Read `blueprints/wallust_cache_logic.pseudo`.
+    - [x] Operator: Determine correct `wallust` flag for "silent generation" (non-applying).
+    - [x] Operator: Write the executable script to `scripts/theme/wallust-refresh.sh`.
+    - [x] Operator: Execute test run and report success/failure.
 
 
 ## [2026-02-06] Session 02: Operator Telemetry & Persona Sync
