@@ -44,9 +44,19 @@
     - Created `scripts/theme/wallust-refresh.sh`.
     - Verified `wallust` flags for silent cache generation: `--skip-templates --skip-sequences -q`.
     - Executed test run to warm the cache for the entire Wallpaper directory.
-- **Pending:**
-    - [ ] Architect: Integrate script into the main theme-switching workflow.
 - **Context:** Added `--skip-templates` and `--skip-sequences` to ensure zero impact on the current terminal environment during batch generation.
+
+## [2026-02-06] Session 04: Script Blueprints & Command Vault
+- **Agent:** Web (Architect)
+- **Status:** COMPLETED
+- **Summary:** Drafted the `wallust-refresh.sh` logic and established the 'Command Vault' protocol for structured CLI operations.
+- **Key Artifacts:** - `blueprints/wallust_cache_logic.pseudo` (Logic for cache-warmer).
+    - `.gemini/commands/bridge/` (Namespace for project commands).
+- **Operator Action:** 
+    - [x] Read directory `.gemini/commands/bridge/`.
+    - [x] Deployed and aligned TOML files for `/bridge:sync`, `/bridge:update-chronicle`, and `/bridge:wfi` to `.gemini/commands/bridge/`.
+    - [x] Tracked Command Vault in the repository.
+- **System State:** Bridge integrity confirmed. Command protocol formalized.
 
 ---
 ## Current Status (2026-02-06)

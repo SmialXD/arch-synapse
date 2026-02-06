@@ -1,0 +1,7 @@
+description = "Wait For Instruction - Suspends current planning logic."
+prompt = """
+Protocol: WFI (Wait For Instruction).
+The system or user is out of sync. Stop all current Action Plans.
+Enter listener mode and wait for the next directive.
+Respond with: 'STATUS: [WAITING] - Architect/Operator modules in standby.'
+"""

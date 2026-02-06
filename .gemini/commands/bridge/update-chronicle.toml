@@ -1,0 +1,6 @@
+description = "Generates the next Session Entry for CHRONICLE.md."
+prompt = """
+Summarize our current progress and goals into a standard Session Entry for CHRONICLE.md.
+Ensure 'Pending Tasks' include specific hardware or script objectives for the Operator.
+Use the Agent tag: Web (Architect) or CLI (Operator) based on context.
+"""
