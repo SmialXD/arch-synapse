@@ -1,7 +1,10 @@
 description = "Syncs AI context with hardware telemetry and project state."
 prompt = """
 Perform a synchronization check of the arch-synapse repository.
-1. Read .gemini/identity.json, .system/current_state.log., CHRONICLE.md and GEMINI.md 
+1.
+   Check for differences in the files and the current github state.
+   Read the contents of CHRONICLE.md
+
 2. Verify recent changes in the directories.
 3. Report back using the 'Operator Response' style:
    - Noticed Changes
